@@ -10,7 +10,7 @@ import application.model.Board;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
         primaryStage.setTitle("Memory");
         primaryStage.setResizable(false);
         BorderPane borderPane = new BorderPane();

@@ -19,7 +19,7 @@ public class Card extends StackPane {
     private final EventHandler<? super MouseEvent> mouseClickEventHandler;
     private Color color;
 
-    public Card(Color color, Controller controller, final Board board) {
+    public Card(final Color color, final Controller controller, final Board board) {
         this.color = color;
         rectangle = new Rectangle(200, 200);
         rectangle.setFill(WHITE);

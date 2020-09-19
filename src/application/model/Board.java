@@ -26,11 +26,11 @@ public class Board implements Observer {
 
         controller.addObserver(this);
 
-        addTop();
-        addCenter();
+        addMenuBar();
+        addGameField();
     }
 
-    private void addTop() {
+    private void addMenuBar() {
         final HBox hBox = new HBox();
         hBox.setPadding(new Insets(5));
         hBox.setSpacing(10);
@@ -55,7 +55,7 @@ public class Board implements Observer {
         borderPane.setTop(hBox);
     }
 
-    private void addCenter() {
+    private void addGameField() {
         final List<Color> shuffledCardColors = getShuffledCardColors();
         int index = 0;
 

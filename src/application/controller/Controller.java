@@ -1,6 +1,7 @@
 package application.controller;
 
 import application.model.Card;
+
 import java.util.Observable;
 
 public class Controller extends Observable {
@@ -29,16 +30,16 @@ public class Controller extends Observable {
         this.secondCard = secondCard;
     }
 
-    public void check(){
+    public void check() {
         setChanged();
         notifyObservers(CHECK);
     }
 
-    public boolean shouldCheck(){
+    public boolean shouldCheck() {
         return shouldCheck;
     }
 
-    public void setShouldCheck(final boolean shouldCheck){
+    public void setShouldCheck(final boolean shouldCheck) {
         this.shouldCheck = shouldCheck;
     }
 
