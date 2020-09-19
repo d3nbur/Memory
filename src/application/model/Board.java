@@ -1,6 +1,6 @@
-package model;
+package application.model;
 
-import controller.Controller;
+import application.controller.Controller;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
@@ -10,7 +10,7 @@ import javafx.scene.paint.Color;
 
 import java.util.*;
 
-import static controller.Controller.CHECK;
+import static application.controller.Controller.CHECK;
 import static javafx.scene.paint.Color.*;
 
 public class Board implements Observer {

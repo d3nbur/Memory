@@ -1,6 +1,6 @@
-package controller;
+package application.controller;
 
-import model.Card;
+import application.model.Card;
 import java.util.Observable;
 
 public class Controller extends Observable {

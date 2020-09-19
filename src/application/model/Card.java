@@ -1,6 +1,6 @@
-package model;
+package application.model;
 
-import controller.Controller;
+import application.controller.Controller;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.event.EventHandler;

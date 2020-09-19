@@ -1,11 +1,11 @@
-package main;
+package application.main;
 
-import controller.Controller;
+import application.controller.Controller;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import model.Board;
+import application.model.Board;
 
 public class Main extends Application {
 
